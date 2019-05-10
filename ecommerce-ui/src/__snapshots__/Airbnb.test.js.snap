@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`shallow renders 1`] = `
+<Card
+  as="div"
+  body={false}
+  style={null}
+>
+  <CardImg
+    as="img"
+    src="https://images.unsplash.com/photo-1475855581690-80accde3ae2b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80"
+    variant={null}
+  />
+  <CardBody>
+    <CardTitle>
+      test property
+    </CardTitle>
+    <CardText>
+      <small>
+        Portland
+        , 
+        USA
+         • 
+        house
+      </small>
+      <br />
+      $
+      100
+       per night
+      <br />
+      <i>
+        test description
+      </i>
+    </CardText>
+  </CardBody>
+  <CardFooter>
+    <Button
+      active={false}
+      disabled={false}
+      onClick={[Function]}
+      type="button"
+      variant="primary"
+    >
+      Add
+    </Button>
+  </CardFooter>
+</Card>
+`;
